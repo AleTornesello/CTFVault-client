@@ -1,5 +1,5 @@
 <template>
-  <div class="home"></div>
+  <v-container> </v-container>
 </template>
 
 <script lang="ts">
@@ -9,6 +9,3 @@ export default Vue.extend({
   name: "Home",
 });
 </script>
-
-<style scoped>
-</style>
