@@ -15,7 +15,7 @@
       <v-text-field
         hide-details
         outlined
-        label="Search"
+        placeholder="Search"
         dark
         append-icon="search"
         dense
@@ -39,12 +39,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 20px 20px;
   background-color: #232323;
   color: #ffffff;
 }
 
 #header-container #logo-container > img {
+  padding: 20px 0;
   height: 100px;
 }
 
@@ -71,6 +72,6 @@
 
 #search-bar-conrainer {
   background-color: #393939;
-  padding: 24px;
+  padding: 16px;
 }
 </style>
